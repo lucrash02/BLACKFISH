@@ -1,0 +1,197 @@
+/**/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body {
+    background-image: url(../assets/images/webb.png);
+    text-align: center;
+}
+
+.logo { position: relative; 
+    right: 850px;
+    width: 120px;
+    height: 120px;
+}
+header {
+    position: sticky;
+    padding: 20px;
+    z-index: 100;
+    top: 0;
+}
+h1 {
+    font-size: 75px;
+    
+}
+nav ul li:hover{
+    background-color: rgb(23, 135, 179);
+    border-radius: 10px 10px;
+}
+
+ul {
+    list-style-type: none; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black; 
+    text-align: left; 
+    background-color: darkgrey;
+}
+
+li{
+    display: inline-block;
+}
+.paginas{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+p {
+    font-size: x-large; 
+    font-family: monospace;
+}
+footer{
+    font-size: x-large;
+}
+
+/*index*/ /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.titulo-de-pag{
+    font-size: 150px;
+    color: black;
+    
+}
+.h2-index {
+    font-size: 50px;
+}
+.body-1{text-align: center;}
+
+
+
+/*encuentranos*/ /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+/*servicios*/ /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.grid-container-2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    border: 6px solid black;
+
+}
+.gengar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 1000px;
+    height: 1000px;
+}
+.lineales {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 100px;
+}
+
+.zoro {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.detallado {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 100px;
+}
+
+
+.ho-ho {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.color {
+    grid-column: 2 / 3;
+    grid-row: inherit;
+    font-size: 100px;
+}
+
+span {
+    font-size: 50px; 
+}
+
+
+
+
+
+
+
+/*informacion*/ /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 20px;
+    border: 6px solid black;
+}
+.d-block{
+    height: 500px;
+    max-width: 500px;
+    justify-content: center;
+}
+
+
+
+
+/*contactanos*/ /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+.fa-brands {
+    font-size: 60px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.boxmodel .caja {
+    width: 120px;
+    height: 120px;
+    padding: 20px 260px 10px 10px;
+    margin: 20px 20px 20px 800px ;
+    border: 10px solid black;
+    border-radius: 70px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+
+}
+.boxmodel .caja1 {
+    background-color:rgb(18, 218, 28);
+    display: flex;
+    flex-direction: row;
+}
+.boxmodel .caja2 {
+    background-color:rgb(202, 107, 197) ;
+    display: flex;
+    flex-direction: row;
+   
+}
+.boxmodel .caja3 {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
