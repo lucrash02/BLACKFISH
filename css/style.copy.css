@@ -162,7 +162,13 @@ span {
 
 /*informacion*/ /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
-
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 20px;
+    border: 6px solid rgb(5, 1, 1);
+}
 
 .carousel.slide.carousel-fade {
     max-width: 1280px;
@@ -227,4 +233,4 @@ span {
 
 .caja3 {
     background-color: whitesmoke;
-}
+}  

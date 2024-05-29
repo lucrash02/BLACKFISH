@@ -1,0 +1,89 @@
+.titulo-de-pag{
+    font-size: 150px;
+    color: black;
+    
+}
+@media (max-width: 860px) {
+    .titulo-de-pag {
+        font-size: 90px;
+
+    }
+        
+}
+@media (max-width: 1360px) {
+    .tatto-video{
+        width: 700px;
+    }
+    
+        
+}
+.h2-index {
+    font-size: 50px;
+}
+.body-1{
+    text-align: center;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    border: 6px solid black;
+        .grid-item{
+            .gengar {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+                width: 1000px;
+                height: 1000px;
+            }
+            .lineales {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                font-size: 100px;
+            }
+            .zoro {
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+            .detallado {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                font-size: 100px;
+            }
+            .ho-ho {
+                grid-column: 1 / 2;
+                grid-row: 3 / 4;
+            }
+            .color {
+                grid-column: 2 / 3;
+                grid-row: inherit;
+                font-size: 100px;
+            }
+         }
+}
+
+section{
+    .carousel.slide.carousel-fade {
+        max-width: 1280px;
+        margin: auto;
+        .carousel-control-prev{
+            background: black;
+            padding: 10px;
+            .carousel-control-prev-icon{
+                color: white;
+                padding: 5px;
+            }
+        }
+        .carousel-control-next{
+            background: black;
+            padding: 10px;
+            .carousel-control-next-icon{
+                color: white;
+            }
+        }
+     }
+     
+
+}
