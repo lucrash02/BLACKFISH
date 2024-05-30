@@ -69,16 +69,7 @@ span {
   color: black;
 }
 
-@media (max-width: 860px) {
-  .titulo-de-pag {
-    font-size: 90px;
-  }
-}
-@media (max-width: 1360px) {
-  .tatto-video {
-    width: 700px;
-  }
-}
+
 .h2-index {
   font-size: 50px;
 }
@@ -155,12 +146,6 @@ footer {
   justify-content: center;
 }
 
-@media (max-width: 860px) {
-  .boxmodel {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .caja {
   width: 120px;
   height: 120px;
@@ -183,6 +168,23 @@ footer {
 
 .fa-brands {
   font-size: 60px;
+}
+
+@media (max-width: 860px) {
+  .boxmodel {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 860px) {
+  .titulo-de-pag {
+    font-size: 90px;
+  }
+}
+@media (max-width: 1360px) {
+  .tatto-video {
+    width: 700px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
