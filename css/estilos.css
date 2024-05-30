@@ -4,16 +4,32 @@
   box-sizing: border-box;
 }
 
+.logo {
+  width: 160px;
+  height: 160px;
+  margin-right: 10px;
+}
+
 body {
   background-image: url(../assets/images/webb.png);
   text-align: center;
 }
 
+.contenedor-flex-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  flex-wrap: none;
+  justify-content: none;
+  /*display: flex;
+  align-items: end;*/
+  flex-direction: row;
+}
+
 .logo {
-  position: relative;
-  right: 850px;
-  width: 120px;
-  height: 120px;
+  /*margin-right: 10px;
+  width: 160px;
+  height: 160px;*/
 }
 
 header {
@@ -69,7 +85,16 @@ span {
   color: black;
 }
 
-
+@media (max-width: 860px) {
+  .titulo-de-pag {
+    font-size: 90px;
+  }
+}
+@media (max-width: 1360px) {
+  .tatto-video {
+    width: 700px;
+  }
+}
 .h2-index {
   font-size: 50px;
 }
