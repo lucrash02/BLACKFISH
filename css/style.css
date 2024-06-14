@@ -117,26 +117,56 @@ footer{
     border: 6px solid black;
 
 }
+@media(min-width:768px){
+    .grid-container-2 {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        border: 6px solid black;
+        
+    }
+}
 .gengar {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     width: 1000px;
     height: 1000px;
 }
+@media(min-width:768px){
+    .gengar {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 .lineales {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     font-size: 100px;
+}
+@media(min-width:768px){
+    .lineales {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 .zoro {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
+@media(min-width:768px){
+    .zoro {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 .detallado {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     font-size: 100px;
+}
+@media(min-width:768px){
+    .detallado {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 
@@ -144,10 +174,20 @@ footer{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 }
+@media(min-width:768px){
+    .ho-ho {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 .color {
     grid-column: 2 / 3;
     grid-row: inherit;
     font-size: 100px;
+}
+@media(min-width:768px){
+    .color{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 span {
