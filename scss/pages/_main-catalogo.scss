@@ -3,20 +3,6 @@
     color: black;
     
 }
-@media (max-width: 860px) {
-    .titulo-de-pag {
-        font-size: 90px;
-
-    }
-        
-}
-@media (max-width: 1360px) {
-    .tatto-video{
-        width: 700px;
-    }
-    
-        
-}
 .h2-index {
     font-size: 50px;
 }
@@ -41,7 +27,8 @@
             .lineales {
                 grid-column: 2 / 3;
                 grid-row: 1 / 2;
-                font-size: 100px;
+                font-size: 1px;
+
             }
             .zoro {
                 grid-column: 1 / 2;
