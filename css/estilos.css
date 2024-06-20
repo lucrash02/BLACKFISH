@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Danfo&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -24,8 +25,6 @@ body {
   flex-direction: row;
 }
 
-
-
 header {
   position: sticky;
   padding: 20px;
@@ -42,6 +41,10 @@ nav ul li:hover {
   border-radius: 10px 10px;
 }
 
+video.tatto-video {
+  width: 95vw;
+}
+
 ul {
   list-style-type: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -51,6 +54,9 @@ ul {
   border: 5px solid black;
   text-align: left;
   background-color: darkgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 ul li {
   display: inline-block;
@@ -79,16 +85,6 @@ span {
   color: black;
 }
 
-@media (max-width: 860px) {
-  .titulo-de-pag {
-    font-size: 90px;
-  }
-}
-@media (max-width: 1360px) {
-  .tatto-video {
-    width: 340px;
-  }
-}
 .h2-index {
   font-size: 50px;
 }
@@ -114,16 +110,11 @@ span {
 .grid-container-2 .grid-item .lineales {
   grid-column: 2/3;
   grid-row: 1/2;
-  font-size: 10000px;
+  font-size: 1px;
 }
 .grid-container-2 .grid-item .zoro {
   grid-column: 1/2;
   grid-row: 2/3;
-}
-.grid-container-2 .grid-item .detallado {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  font-size: 100px;
 }
 .grid-container-2 .grid-item .ho-ho {
   grid-column: 1/2;
@@ -197,12 +188,33 @@ footer {
 }
 @media (max-width: 860px) {
   .titulo-de-pag {
-    font-size: 90px;
+    font-size: 60px;
   }
 }
 @media (max-width: 1360px) {
   .tatto-video {
-    width: 700px;
+    width: 340px;
+  }
+}
+@media (min-width: 768px) {
+  .grid-container-2 {
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-container-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 90vw;
+  }
+  .grid-container-2 .grid-item img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
   }
 }
 
